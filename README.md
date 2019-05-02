@@ -9,7 +9,7 @@ Function: Movie ticket bossting
 User manual:
 
 Via Wechat offical account:
-1. Please put "app.py", "authentication.py" and "Chatbot.py" to your the website path of your server(E.g. For nginx, please put it in /var/www/html or its subfolders).
+1. Please put "movie-avalible/" ,"session_ids/", "app.py", "authentication.py" and "Chatbot.py" to your the website path of your server(E.g. For nginx, please put it in /var/www/html or its subfolders).
 2. Make sure the port 80 is availble
 3. Then visit https://mp.weixin.qq.com for setting WeChat official account for auto-reply
 
@@ -26,7 +26,7 @@ Use "jupyter" to run "Chatbot.ipynb" and run all column in orders, and you can e
 
 用户手册:
 通过微信公众号:
-1. 将"app.py", "authentication.py" 以及 "Chatbot.py" 放置于服务器网页目录下 （例如使用nginx，则放在/var/www/html或其子目录）
+1. 将"movie-avalible/" ,"session_ids/", "app.py", "authentication.py" 以及 "Chatbot.py" 放置于服务器网页目录下 （例如使用nginx，则放在/var/www/html或其子目录）
 2. 确认服务器80端口开放
 3. 进入微信公众平台， 设置自动回复：
 (1) 点击左侧 开发 -> 基本配置，找到开发者ID和密码（没有则启用）;
