@@ -12,7 +12,7 @@ Via Wechat offical account:
 1. Please put "app.py", "authentication.py" and "Chatbot.py" to your the website path of your server(E.g. For nginx, please put it in /var/www/html or its subfolders).
 2. Make sure the port 80 is availble
 3. Then visit https://mp.weixin.qq.com for setting WeChat official account for auto-reply
-(1) 
+
   (1) Choose "Development" -> "Basic Config", Record "AppID" and "AppSecret". (If you cannot find "AppSecret", Enable it)
   (2) Click "Server Config" -> Click "modify", fill the form with correspond content. The "URL" should be the path that "app.py" located. Set "token" by yourself and we suggest to use random "EncodingAESKey".
   (3) Modify the constructor of class "Get" in "app.py". set  self.token = "$token", self.Appid = "$AppID", self.AppSecret = "AppSecret".
