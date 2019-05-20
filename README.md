@@ -10,8 +10,8 @@ User manual:
 
 Via Wechat offical account:
 1. Please put "movie-avalible/" ,"session_ids/", "app.py", "authentication.py" and "Chatbot.py" to your the website path of your server(E.g. For nginx, please put it in /var/www/html or its subfolders).
-2. Make sure the port 80 is availble
-3. Then visit https://mp.weixin.qq.com for setting WeChat official account for auto-reply
+2. Make sure the port 80 is accessible.
+3. Visit https://mp.weixin.qq.com for setting WeChat official account for auto-reply.
 
   * Choose "Development" -> "Basic Config", Record "AppID" and "AppSecret". (If you cannot find "AppSecret", Enable it)
   * Click "Server Config" -> Click "modify", fill the form with correspond content. The "URL" should be the path that "app.py" located. Set "token" by yourself and we suggest to use random "EncodingAESKey".
